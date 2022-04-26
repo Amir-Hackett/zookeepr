@@ -1,7 +1,7 @@
 {
   "name": "zookeepr",
   "version": "1.0.0",
-  "description": "[![Issues](https://img.shields.io/github/issues/amir-hackett/zookeepr)](https://github.com/amir-hackett/zookeepr/issues) [![Issues](https://img.shields.io/github/contributors/amir-hackett/zookeepr)](https://github.com/amir-hackett/zookeepr/graphs/contributors)",
+  "description": "Web Server for Zookeepr",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/Amir-Hackett/zookeepr/issues"
   },
-  "homepage": "https://github.com/Amir-Hackett/zookeepr#readme",
   "dependencies": {
     "express": "^4.18.0"
   }
