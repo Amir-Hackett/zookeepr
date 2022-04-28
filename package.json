@@ -10,6 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amir-Hackett/zookeepr/issues"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
