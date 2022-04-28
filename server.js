@@ -7,7 +7,7 @@ const exp = require('constants');
 const PORT = process.env.PORT || 3001;
 const app = express();
 
-//both are middleware functions
+// middleware functions
 // parse incoming string or array data
 //takes incoming POST data and turns it into a key/value pair
 app.use(express.urlencoded({ extended:true }))
