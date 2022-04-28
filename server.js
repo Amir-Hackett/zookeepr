@@ -93,8 +93,23 @@ app.get('/api/animals/:id', (req, res) => {
   }
 });
 
+//routes to different pages
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'))
+})
+
+app.get('/animals', (req, res) => {
+  res.sendFile(path.join(__dirname, './public/animals.html'))
+})
+
+app.get('/zookeepers', (req, res) => {
+  res.sendFile(path.join(__dirname, './public/zookeepers.html'))
+})
+
+// catches requests for non-existent route
+// wildcard route
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, './publix/index.html'))
 })
 
 //route listens for a post request
