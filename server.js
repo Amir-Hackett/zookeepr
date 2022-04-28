@@ -90,6 +90,9 @@ app.get('/api/animals/:id', (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, './public/index.html'))
+})
 
 //route listens for a post request
 app.post('/api/animals', (req, res) => {
